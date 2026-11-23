@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+
+:root {
+  --bg-dark: #0b0f19;
+  --accent-primary: #6366f1;
+  --accent-cyan: #06b6d4;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.navbar-custom {
+  background-color: var(--bg-dark) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.9rem 0;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-banner {
+  background: radial-gradient(circle at top right, #1e1b4b, var(--bg-dark) 70%);
+  border-bottom: 3px solid var(--accent-primary);
+  padding: 4.5rem 0;
+}
+
+.game-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  background: #ffffff;
+}
+
+.game-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.12) !important;
+}
+
+.game-card img {
+  height: 190px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover img {
+  transform: scale(1.03);
+}
+
+.btn-gaming {
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-cyan));
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.55rem 1.2rem;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.btn-gaming:hover {
+  color: #ffffff;
+  opacity: 0.92;
+  transform: scale(1.01);
+}
+
+.auth-card, .detail-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.07) !important;
+}
+
+.form-control, .form-select {
+  border-radius: 10px;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid #cbd5e1;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.footer-custom {
+  background-color: var(--bg-dark) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #cbd5e1;
+}

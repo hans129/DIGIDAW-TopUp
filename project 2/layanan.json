@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nama": "Valorant Points (VP)",
+    "kategori": "PC FPS",
+    "deskripsiSingkat": "Top up Valorant Points resmi server Indonesia, proses instan 1 detik.",
+    "detailLengkap": "Layanan pengisian Valorant Points (VP) legal dan resmi dari PT Digidaw TopUp Digital.",
+    "hargaMulai": "Rp 15.000"
+  },
+  {
+    "id": 2,
+    "nama": "Mobile Legends Diamonds",
+    "kategori": "Mobile MOBA",
+    "deskripsiSingkat": "Isi ulang Diamond & Weekly Diamond Pass Mobile Legends termurah.",
+    "detailLengkap": "Top up Diamond Mobile Legends: Bang Bang (MLBB) 24 jam nonstop.",
+    "hargaMulai": "Rp 3.000"
+  },
+  {
+    "id": 3,
+    "nama": "Minecraft Java & Bedrock",
+    "kategori": "PC Sandbox",
+    "deskripsiSingkat": "Voucher Minecoins dan kode redeem resmi Minecraft original.",
+    "detailLengkap": "Dapatkan Minecoins atau kode redeem resmi Minecraft Java & Bedrock Edition.",
+    "hargaMulai": "Rp 45.000"
+  }
+]
