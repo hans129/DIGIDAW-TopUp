@@ -13,7 +13,7 @@
 2. **Halaman Detail Informasi**
    ![Halaman Detail](img/Tampilan%20Detail.png)
 3. **Halaman Registrasi**
-   ![Halaman Registrasi](img/tampilan%20Register.png)
+   ![Halaman Registrasi](img/Tampilan%20Register.png)
 4. **Halaman Login**
    ![Halaman Login](img/tampilan%20Login.png)
 5. **Halaman Menu Utama (Top-Up & Accept Pembayaran)**
